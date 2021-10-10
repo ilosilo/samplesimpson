@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignSelf": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "flexWrap": "wrap",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Bart Simpson
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "flexWrap": "wrap",
+          "fontSize": 15,
+        }
+      }
+    >
+      Student
+    </Text>
+  </View>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "white",
+          "borderBottomWidth": 2,
+          "borderColor": "gray",
+          "borderRadius": 30,
+          "borderRightWidth": 2,
+          "height": 150,
+          "justifyContent": "center",
+          "padding": 30,
+          "position": "absolute",
+          "top": 50,
+          "width": "90%",
+        }
+      }
+    >
+      <Text>
+         Job: 
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        value="Student"
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "gray",
+              "borderLeftWidth": 2,
+              "borderRadius": 30,
+              "borderRightWidth": 2,
+              "borderTopWidth": 2,
+              "marginTop": 30,
+              "opacity": 1,
+              "padding": 10,
+              "width": "50%",
+            }
+          }
+        >
+          <Text>
+             Change Job 
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "gray",
+              "borderLeftWidth": 2,
+              "borderRadius": 30,
+              "borderRightWidth": 2,
+              "borderTopWidth": 2,
+              "marginTop": 30,
+              "opacity": 1,
+              "padding": 10,
+              "width": "50%",
+            }
+          }
+        >
+          <Text>
+             Cancel 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;

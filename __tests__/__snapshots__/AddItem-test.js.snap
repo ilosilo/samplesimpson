@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "rgb(84, 75, 63)",
+            "marginLeft": 12,
+            "marginTop": 15,
+          }
+        }
+      >
+        Name Surname
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderBottomColor": "rgb(242, 145, 145)",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(238, 196, 196, 0.7)",
+            "borderWidth": 1,
+            "margin": 10,
+            "width": "90%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "rgb(84, 75, 63)",
+            "marginLeft": 12,
+            "marginTop": 15,
+          }
+        }
+      >
+        Job Title
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderBottomColor": "rgb(242, 145, 145)",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(238, 196, 196, 0.7)",
+            "borderWidth": 1,
+            "margin": 10,
+            "width": "90%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "rgb(84, 75, 63)",
+            "marginLeft": 12,
+            "marginTop": 15,
+          }
+        }
+      >
+        About Him/Her
+      </Text>
+      <TextInput
+        multiline={true}
+        numberOfLines={4}
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderBottomColor": "rgb(242, 145, 145)",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(238, 196, 196, 0.7)",
+            "borderWidth": 1,
+            "margin": 10,
+            "width": "90%",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "rgb(84, 75, 63)",
+            "marginLeft": 12,
+            "marginTop": 15,
+          }
+        }
+      >
+        Image Link
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderBottomColor": "rgb(242, 145, 145)",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(238, 196, 196, 0.7)",
+            "borderWidth": 1,
+            "margin": 10,
+            "width": "90%",
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "rgb(242, 145, 145)",
+        "borderRadius": 30,
+        "height": 50,
+        "justifyContent": "center",
+        "marginTop": 30,
+        "opacity": 1,
+        "width": 220,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgb(255,255,255)",
+          "fontSize": 20,
+          "fontWeight": "normal",
+        }
+      }
+    >
+      Add Character
+    </Text>
+  </View>
+</View>
+`;
